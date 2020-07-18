@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+/* .navbar {
+    overflow: hidden;
+    background-color: #333; 
+  } */
+  
+ .navbar a {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+  } 
+  
+  /* .subnav {
+    float: left;
+    overflow: hidden;
+  } */
+  
+  /* .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  } */
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    color: rgb(32, 210, 216);
+  }
+
+  /* .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  } */
+  
+  /* .subnav-content a {
+    float: left;
+    text-decoration: none;
+  } */
+  
+   .subnav-content a:hover {
+    background-color: #eee;
+  }
+  
+  /*
+  .subnav:hover .subnav-content {
+    display: block;
+  } */
